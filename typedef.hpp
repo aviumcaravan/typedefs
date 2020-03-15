@@ -1,32 +1,20 @@
 #ifndef H_TYPEDEF
 #define H_TYPEDEF //definition macro
 
-typedef short shortInt;
+typedef short int16;
+typedef int int32;
+typedef long int64;
 
-typedef int Int32;
-
-typedef long extInt;
+typedef unsigned short uInt16;
+typedef unsigned int uInt32;
+typedef unsigned long uInt64;
 
 typedef char ASCII;
 
-typedef float Decimal;
+typedef float float32;
+typedef double float64;
+typedef long double float64;
 
-typedef double extDecimal;
-
-typedef const short cShortInt;
-
-typedef const int cInt32;
-
-typedef const long cExtInt;
-
-typedef const char cASCII;
-
-typedef const float cDecimal;
-
-typedef const double cExtDecimal;
-
-typedef bool flag;
-
-typedef const bool cFlag;
+typedef void* address;
 
 #endif
